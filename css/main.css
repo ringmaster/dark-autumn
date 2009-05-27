@@ -1,0 +1,715 @@
+/*
+main.css
+*/
+
+input:active
+{
+	border:black;
+}
+body
+{
+	background: #fafafa;
+	min-width: 990px;
+}
+
+a, a:active
+{
+	color:#5cc5c9;
+}
+
+a:hover
+{
+	color:#1ce0e7;
+}
+
+input,textarea
+{
+	font-family: "Chaparral Pro","Palatino Linotype","Hoefler Text",georgia !important; /* Dear Mozilla, please don't force us to use your own fonts. kthxby. */
+	background:#fafafa;
+	font-style: italic;
+	padding:2px;
+	letter-spacing: 0.02em;
+	color:#2c2c2c;
+}
+div#banner
+{
+	background:#f9683c;
+	border-bottom:#cba79d 1px solid;
+	position:static;
+	height:10px;
+	width:100%; 
+}
+
+div#branch
+{
+	background:url(../images/branch.png) top right no-repeat;
+	position:absolute;
+	height:270px;
+	top:0;
+	display: block;
+	width:63%;
+	min-width: 660px;
+}
+
+div#primary
+{
+	position:relative;
+	background:url(../images/silhouette1.png) 100% 100% no-repeat;
+	padding-left:50px;
+	padding-right:50px;
+}
+
+div#secondary
+{
+	background:#232323;
+	width:100%;
+	min-height:90px;
+	min-width: 990px;
+	position:relative;
+}
+
+div#secondary > div.wrapper 
+{	
+	padding:30px 30px 0;
+	min-width:930px;
+	height:100%;
+}
+
+div.line1
+{
+	width:100%;
+	background: url(../images/indent_line.png) 33% 0 repeat-y;
+
+}
+div.line2
+{
+	width:100%;
+	background: url(../images/indent_line.png) 66% 0 repeat-y;
+}
+
+div.navigation
+{	
+	margin-top:18px;
+	height:22px;
+}
+
+div.navigation ul
+{
+	padding: 5px 0px;
+
+}
+
+div.navigation ul li
+{	
+	display: inline;
+	border-left:#111111 1px solid;
+}
+
+div.navigation ul li a
+{
+	font-size:120%;
+	padding:3px 7px;
+	color:#757575;
+	margin-left:7px;
+	margin-right:5px;
+	font-family: "Chaparral Pro",Baskerville, Times New Roman, Times, serif;
+	line-height: 1em;
+	
+}
+
+div.navigation ul li a.active, div.navigation ul li a:hover
+{
+	background:#f9683c;
+	color:#fafafa;
+	-moz-border-radius: 3px;
+	-webkit-border-radius: 3px;
+	border-radius: 3px;
+}
+
+div.sitetitle
+{
+	display:static;
+	float:right;
+	width:100%;
+	padding-bottom:30px;
+}
+
+div.sitetitle *
+{
+	text-align: right;
+	font-weight:normal;
+	font-style: italic;
+}
+
+div.entry
+{
+	text-align: justify;
+	margin-bottom:3em;
+}
+
+h1
+{
+	font-size: 60px;
+	color:#232323;
+	line-height: 0.8;
+}
+
+div.sitetitle p
+{
+	font-size: 180%;
+	color:#4c4c4c;
+}
+
+div#entries
+{
+	width:65%;
+	float:left;
+	padding-top:5px;
+	margin-bottom:0;
+}
+div#pagination, div#entry-pagination
+{
+	margin-top:2.5em;
+	margin-bottom:2em;
+	font-size: 170%;
+	font-style: italic;
+	height:1.8em;
+}
+
+div#pagination a
+{
+	color:#232323;
+}
+
+div#pagination a.current-page
+{
+	color:#f9683c;
+}
+
+div#pagination a:hover
+{
+	color:#5cc5c9;
+}
+
+div#sidebar
+{
+	float:right;
+	width: 32%;
+	margin-bottom:470px;
+}
+.amp
+{
+	font-family: "Adobe Caslon Pro", "Palatino Linotype","Hoefler Text",georgia;
+	line-height: 50%;
+}
+div.entry-title h2
+{
+	font-size: 260%;
+	color:#232323;
+	font-weight: normal;
+	font-style: italic;
+	line-height: .9em;
+	text-align: left;
+}
+
+div.entry-title h2 a
+{
+	color:#232323;
+}
+
+div.entry-subtitle h3
+{
+	font-size: 190%;
+	color:#757575;
+	font-weight: normal;
+	font-style: italic;
+	line-height: 1;
+}
+
+div.entry-content
+{
+	font-family: Cambria, Georgia, Times, Times New Roman, serif;
+	margin-top:1em;
+}
+
+div.entry-content h4
+{
+    font-size:130%;
+    margin:0.4em 0;
+}
+
+div.entry-content ul, div.entry-content ol
+{
+    margin-bottom:0.8em;
+}
+
+div.entry-content p
+{
+	line-height: 1.4em;
+	margin-bottom:0.8em;
+	font-size: 100%;
+	text-indent: 1.5em;
+}
+
+div.entry-content blockquote
+{
+	font-family: "Chaparral Pro","Palatino Linotype","Hoefler Text",georgia;
+	font-size:120%;
+	font-style:italic;
+	margin:0 15px 15px;
+	background: url(../images/quote.png) top left no-repeat;
+	padding: 5px 30px 0;
+}
+
+div.entry-content ul,ol
+{
+	margin-left:40px;
+
+}
+
+div.entry-content img
+{
+	margin:0 10px;
+	border:1px solid #dddddd;
+	padding:5px;
+}
+
+div.entry-footer
+{
+	margin-top:1em;
+}
+div.entry-footer p
+{
+	margin-top:0.5em;
+	font-style: italic;
+	font-size: 120%;
+	color:#757575;
+	line-height: 1.05em;
+}
+
+div.entry-footer p strong
+{
+	font-style: normal;
+}
+
+div#blurb
+{
+	margin-top:10px;
+}
+div#sidebar >div
+{
+	margin-bottom:40px;
+}	
+div#blurb p
+{
+	font-family: "Adobe Caslon Pro","Palatino Linotype","Hoefler Text", georgia;
+	text-align: justify;
+	font-size: 150%;
+	color:#b7b7b7;
+	line-height: 1.2em;
+}
+
+div#twitterbox
+{
+	background:url(../images/twitter.png) top right no-repeat;
+	padding-top:55px;
+}
+
+div#twitterbox p
+{
+	font-size: 115%;
+	font-style: italic;
+	color:#969696;
+}
+
+div#sidebar h3
+{
+	font-size: 210%;
+	font-style: italic;
+	color:#757575;
+	font-weight: normal;
+	text-align: right;
+
+}
+
+div#sidebar > div ul
+{
+	list-style: none;
+}
+
+div#sidebar > div li
+{
+	margin-bottom:15px;
+}
+
+div#sidebar > div li p
+{
+	color:#6e6e6e;
+	font-size: 120%;
+}
+
+div#sidebar > div p.footer
+{
+	text-align: right;
+}
+
+div#sidebar div#sidenotes li{
+	text-align:justify;
+	padding-bottom: 7px;
+	margin-bottom:7px;
+	border-bottom: #eaeaea 1px solid;
+}
+
+div.secondary-module
+{
+	float:left;
+	width:33%;
+	display:block;
+}
+
+div.secondary-module > div.wrapper > div
+{
+	margin-bottom: 20px;
+}
+
+div.secondary-module h2
+{
+	font-size: 170%;
+	font-style: italic;
+	font-weight: normal;
+	color:#a8a8a8;
+	margin-top: 3px;
+	margin-bottom: 6px;
+}
+
+div.secondary-module ul
+{
+	list-style:none;
+}
+
+div.secondary-module li
+{
+	
+	font-size: 120%;
+}
+
+div.secondary-module li:hover
+{
+	background:#282828;
+}
+div.secondary-module li a
+{
+	min-height:1.5em;
+	display:block;
+	color:#6b6b6b;
+	line-height: 1.5em;
+	margin-left:10px;
+}
+div.secondary-module li a:hover
+{
+	color:#5cc5c9;
+}
+
+div#secondary-module-1 div.wrapper
+{
+	padding-right:30px;
+}
+
+div#secondary-module-2 div.wrapper
+{
+	padding: 0 30px;
+}
+
+div#secondary-module-3 div.wrapper
+{
+	padding-left:30px;
+}
+
+div#footer
+{
+	padding:20px 0 10px;;
+
+}
+div#footer p
+{
+	font-style:italic;
+	text-align: center !important;
+	color:#efefef;
+	width:100%;
+}
+div#search-box
+{
+	margin-bottom:30px;
+}
+div#search-box input#search
+{
+	width:100%;
+	height:20px;
+	font-size: 130%;
+	border:#a1a1a1 1px solid;
+}
+
+div#tags p
+{
+	font-size: 120%;
+	color:#a8a8a8;
+	margin-bottom: 20px;
+}
+
+div#tags ul.tag-cloud
+{
+
+	line-height: 18px;
+	text-align: justify;
+}
+div#tags ul.tag-cloud li
+{
+	font-size: 100%;
+	display: inline;
+}
+div#tags ul.tag-cloud li a
+{
+	margin:0 !important;
+	line-height:1em;
+	display:inline !important;
+}
+div#tags ul.tag-cloud li:hover
+{
+	background: none !important;
+}
+div#flickr div.flickr_badge
+{
+
+}
+
+div#flickr .flickr_badge_image
+{
+	background:#303030;
+	padding:2px;
+	margin:1px;
+	float:left;
+}
+
+div#maintenance
+{
+	text-align: center;
+	margin:0 auto;
+	max-width:690px;
+}
+
+div#maintenance div.sitetitle
+{
+	float:none;
+	margin:50px auto;
+}
+
+div#maintenance div.sitetitle *
+{
+	text-align: center;
+}
+
+div#maintenance div.sitetitle h1
+{
+	font-size: 560%;
+	font-style: normal;
+}
+
+div#maintenance div#message p.message-header
+{
+	font-size: 300%;
+	margin-bottom: 15px;
+}
+
+div#maintenance div#message p.message-body
+{
+	font-size: 200%;
+	line-height: 1.2em;
+
+}
+
+div#entry-comments
+{
+	margin: 50px 0 0 0;
+}
+
+div#entry-comments h3, #comment-box h3
+{
+	margin: 0 0 30px 0;
+	font-size: 1.6em;
+	font-style: italic;
+	font-weight: normal;
+	color:#656565;
+	
+}
+
+div#entry-comments div.comment-wrapper
+{
+	margin: 0 0 25px 0;
+	width:100%;
+}
+
+div#entry-comments div.author-comment
+{
+	background:  url(../images/author_label.png) 4px bottom  no-repeat;
+}
+
+div#entry-comments div.comment-number
+{
+	font-size: 140%;
+	color:#8f8f8f;
+	font-weight: bold;
+	float:left;
+	width:20px;
+}
+
+div#entry-comments div.comment-number > p
+{
+	text-align: center;
+}
+
+div#entry-comments div.comment-number a
+{
+	color:#8f8f8f;
+}
+
+div#entry-comments div.comment-number a:hover
+{
+	color:#1ce0e7;
+}
+
+div#entry-comments div.comment
+{
+	border-left:#b5b5b5 1px solid;
+	padding:0 0 0 10px;
+	margin-left:25px;
+}
+div#entry-comments div.author-comment div.comment
+{
+	padding:0 10px 0 10px;
+}
+
+div#entry-comments p.comment-author
+{
+	color:#a5a5a5;
+	margin: 0 0 0.4em 0;
+}
+
+div#entry-comments p.comment-author span.author-name
+{
+	font-size: 1.3em ;
+	color:#444444;
+}
+div#entry-comments div.comment-content
+{
+	font-family: Cambria, Georgia, Times, Times New Roman, serif;
+	line-height: 1.2;
+	margin: 0 0 0.5em 0;
+	text-align: justify;
+	min-height: 25px;
+}
+div#entry-comments p.comment-meta
+{
+	font-style: italic;
+}
+
+div#comment-box
+{
+	margin-top:50px;
+}
+
+div#comment-box div#left-wrapper
+{
+	width: 250px;
+	float:left;
+	margin-left:20px
+}
+div#comment-box input[type=text],div#comment-box p
+{
+	font-size: 120%;
+	margin:0 0 10px 0;
+	width:250px;
+	overflow: hidden;
+	height:25px;
+}
+
+div#comment-box p
+{
+	font-style: italic;
+	height:50px;
+	font-size: 110%;
+}
+
+div#comment-box h3
+{
+	margin-bottom:10px;
+}
+div#comment-box div#textarea-wrapper
+{
+	margin-left:290px;
+	height:100% !important;
+}
+
+div#comment-box textarea
+{
+	width:97%;
+	height:165px;	
+}
+
+div#comment-box input[type=text],div#comment-box textarea
+{
+	border:#d1d1d1 1px solid;
+	background:#fbfbfb;
+}
+div#comment-box input[type=submit]
+{
+	background:none;
+	font-size:190%;
+	margin-top:-5px;
+	margin-right:5px;	
+	float:right;
+	cursor: pointer;
+}
+div.messages
+{
+	padding-top:20px;
+	padding-bottom:20px;
+}
+
+div.messages ul
+{
+	padding-bottom:5px;
+
+}
+div.messages ul li
+{
+	font-size:1.2em;
+	font-style:italic;
+	padding-left:20px;
+	list-style: none;
+	line-height:1em;
+}
+
+div.messages ul.success li
+{
+	background: url(../images/success.png) left top no-repeat;
+}
+
+div.messages ul.error li
+{
+	background: url(../images/error.png) left top no-repeat;
+}
+
+div#entry-pagination a
+{
+	color:#232323;
+}
+
+div#entry-pagination a:hover
+{
+	color:#5cc5c9;
+}
+div#entries p.prompt
+{
+	font-size: 1.9em;
+	margin:1.5em 0;
+}

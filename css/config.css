@@ -1,0 +1,70 @@
+div.colorlabel
+{
+	float:left;
+	line-height:2.2em;
+	height:30px;
+	width:80%;
+}
+div.textlabel
+{
+	float:left;
+	line-height:2.2em;
+	height:25px;
+	width:39%;
+}
+
+#colors
+{
+	width:44%;
+	float:left;
+}
+
+#colors_wrapper,#images_wrapper,#textual_wrapper
+{
+	padding:0 ;
+	border:none;
+	width:95%;
+}
+
+div.colorbox
+{
+	height:28px;
+	width:28px;
+	background:transparent url(../colorpicker/images/select2.png) repeat scroll center center;
+	float:right;
+}
+
+div.colorbox input
+{
+	display:none;
+}
+
+#images
+{
+	width:44%;
+	float:right;
+}
+
+.clear
+{
+	clear:both;
+}
+
+input[type="text"]{
+	width:60%;
+	border:#bbb 1px solid;
+	margin-bottom:10px;
+	margin-left:10px;
+}
+
+em
+{
+	font-size: 0.9em;
+	margin-bottom:10px;
+}
+
+textarea
+{
+	height:8em;
+	border:#bbb 1px solid;
+}

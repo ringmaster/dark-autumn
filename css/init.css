@@ -1,0 +1,69 @@
+/* 
+init.css
+*/
+
+body, html, div, blockquote, img, label, p, h1, h2, h3, h4, h5, h6, pre, ul,
+ol, li, dl, dt, dd, form, a, fieldset, input, th, td 
+{
+	margin: 0; padding: 0; border: 0; outline: none;
+}
+
+body
+{	
+	font-family: "Chaparral Pro","Palatino Linotype","Hoefler Text",georgia;
+	line-height: 1;
+	color:#4c4c4c;
+	font-size: 14px; /* Base font size */
+}
+
+h1, h2, h3, h4, h5, h6
+{
+	font-size: 100%;
+}
+
+a
+{
+	text-decoration: none;
+}
+
+.noborder
+{
+	border-left:none!important;
+}
+.left
+{
+	float:left;
+}
+
+.right
+{
+	float:right;
+}
+.clear
+{
+	clear:both;
+}
+
+.hidden
+{
+	display:none;
+}
+
+.half-width
+{
+	width:50%;
+}
+
+.clearfix:after
+{
+	content: ".";
+	display: block;
+	height: 0;
+	clear: both;
+	visibility: hidden;
+}
+
+.clearfix
+{
+	#display: inline-block; /* IE */
+}
