@@ -1,5 +1,4 @@
 <?php
-define( 'THEME_CLASS', 'darkautumn' );
 class DarkAutumn extends Theme
 {
 	private $options  =array();
@@ -173,8 +172,7 @@ class DarkAutumn extends Theme
 	public function action_admin_header( $theme )
 	{
 		$vars=Controller::get_handler_vars();
-		echo $theme->admin_page;
-		if ($theme->admin_page == 'themes' && isset( $vars['configure'] ) && $vars['configure'] == 'dark-autumn' ) {
+		if ($theme->admin_page == 'themes' ) { // This hook is only fired if this theme is active anyway.
 			Stack::add('admin_stylesheet', array($this->get_url() . '/css/config.css', 'screen'));
 			Stack::add('admin_stylesheet', array($this->get_url() . '/colorpicker/colorpicker.css', 'screen'));
 			Stack::add( 'admin_header_javascript', $this->get_url() . '/colorpicker/colorpicker.js', 'colorpicker' );
@@ -182,7 +180,7 @@ class DarkAutumn extends Theme
 
 			$configured= ( Options::get('darkautumn__configured') ? true : false );
 			if ( ! $configured ){
-			$this->set_default_options();
+				$this->set_default_options();
 			}
 		}
 	}

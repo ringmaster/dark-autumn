@@ -28,8 +28,7 @@ endif;
 
 ?>
 						</p>
-						<?php if ( $user ) : ?>
-						<?php Utils::debug($user);?>
+						<?php if ( $post->get_access()->edit ) : ?>
 						<p><?php printf( _t('You are logged in as %1$s and you can %2$s.'), $user->displayname, '<a href="' . $post->editlink . '" title="">' . _t('edit this article') . '</a>'); ?></p>
 						<?php endif; ?>
 					</div>

@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" ?>
-<theme>
+<pluggable type="theme">
     <name>Dark Autumn</name>
 	<author>Ali B.</author>
 	<url>http://www.awhitebox.com</url>
@@ -7,4 +7,4 @@
     <template_engine>rawphpengine</template_engine>
 	<description>An original habari theme brought to you by awhitebox.com&lt;br/&gt;&lt;strong&gt;NOTE:&lt;/strong&gt; This version is optimised for Habari 0.6-alpha or later. If you are running Habari 0.5, consider using version 1.0 of this theme.</description>
 	<license url="http://www.apache.org/licenses/ALICENSE-2.0.html">Apache Software License 2.0</license> 
-</theme>
+</pluggable>
